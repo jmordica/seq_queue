@@ -1,3 +1,3 @@
-import { EventEmitter } from "https://deno.land/std@0.142.0/node/events.ts";
+import { EventEmitter } from "https://deno.land/std/node/events.ts";
 
 export { EventEmitter };

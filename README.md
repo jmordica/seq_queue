@@ -14,8 +14,8 @@ fock by https://github.com/changchang/seq-queue
 
 ## usage
 ```ts
-import { assertEquals } from "https://deno.land/std@0.139.0/testing/asserts.ts";
-import { createQueue, STATUS_IDLE } from "https://deno.land/x/seq_queue@v1.0.0/mod.ts";
+import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
+import { createQueue, STATUS_IDLE } from "https://deno.land/x/seq_queue/mod.ts";
 
 Deno.test("seq_queue", function() {
   const timeout = 1000;
